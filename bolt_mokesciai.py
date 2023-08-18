@@ -1,3 +1,6 @@
+"""
+labas
+"""
 kasa = float(input("Bolt pajamos "))
 premija = float(input("Kokia premija? "))
 arbata = float(input("Kiek arbatos? "))
