@@ -10,8 +10,8 @@ atvirkstinis = komisas * 21 / 121
 pelnas = kasa + premija + arbata - islaidos - komisas - atvirkstinis
 vsd = pelnas * 0.9 * 0.1252
 psd = pelnas * 0.9 * 0.06980
-if psd < 58.63:
-    psd = 58.63
+if psd < 64.5:
+    psd = 64.5
 pelnas_po_sodros = pelnas - vsd - psd
 gpm_kreditas = pelnas_po_sodros * 0.1
 gpm = pelnas_po_sodros * 0.15 - gpm_kreditas
